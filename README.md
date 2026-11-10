@@ -1,7 +1,7 @@
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repostitory!
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a porfolio project that highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse and Analytics Project** repository!
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project that highlights industry best practices in data engineering and analytics.
 
 ---
 ## 🏗️ Data Architecture
@@ -26,7 +26,7 @@ This project involves:
 
 ## 🛠️ Important Links & Tools:
 
-Everything is for Free!
+Tools are Resources
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
@@ -42,12 +42,12 @@ Everything is for Free!
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Develoop a modern data warehouse using SQL Server to consolidate sales daa, enabling analytical reporting and informed decision-making
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making
 
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user friendly data model designed for analytical querries.
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and anlytics teams.
 
@@ -60,11 +60,11 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── ETL.png                         # PNG file shows all different techniquies and methods of ETL
+│   ├── ETL.png                         # PNG file shows all different techniques and methods of ETL
 │   ├── data_architecture.PNG           # PNG file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.png                   # PNG file for the data flow
-|   ├── data_integration.png            # PNG file for the data intergration
+|   ├── data_integration.png            # PNG file for the data integration
 │   ├── data_models.png                 # PNG file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
